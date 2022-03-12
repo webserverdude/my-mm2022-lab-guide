@@ -1,7 +1,7 @@
 # Ubuntu Virtual Machine for NGINX Microservices March 2022 Labs
 
 ## Preface
-Since I didn't have access to the lab environment in UDF, I decided to setup and run my own environment in VMware Workstation, so that I can run the (Microservices March Labs)[https://github.com/f5devcentral/nginx_microservices_march_labs] at my own pace.
+Since I didn't have access to the lab environment in UDF, I decided to setup and run my own environment in VMware Workstation, so that I can run the [Microservices March Labs](https://github.com/f5devcentral/nginx_microservices_march_labs) at my own pace.
 This guide should help anyone to setup their own Ubuntu VM to run the labs in your environment.
 I won't cover the installation of the Ubuntu OS itself. One hint: on my Ubuntu host I disabled swap. 
 
@@ -88,7 +88,7 @@ daniel@ubuntu:~$ sudo cp minikube /usr/local/bin && rm minikube
 ```shell
 minikube start --memory=4G
 ```
-From here on you can follow the lab guides.
+From here on you can follow the [lab guides](https://github.com/f5devcentral/nginx_microservices_march_labs).
 
 ## Problems observed
 The lab guide mentions a couple of times that you can run commands like `minikube service podinfo` and this will display a chart like this and it would open the service in your browser.
