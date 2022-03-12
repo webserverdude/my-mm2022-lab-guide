@@ -6,7 +6,7 @@
 sudo apt update
 ```
 ```shell
-sudo apt-get install ca-certificates curl gnupg lsb-release
+sudo apt install ca-certificates curl gnupg lsb-release
 ```
 2. Add Docker’s official GPG key:
 ```shell

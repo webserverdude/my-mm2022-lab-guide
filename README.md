@@ -12,6 +12,9 @@ I won't cover the installation of the Ubuntu OS itself. One hint: on my Ubuntu h
 * Helm 3.8.1
 * Minikube v1.25.2
 
+## Link to copy & paste commands
+[copy_and_paste_commands.md](copy_and_paste_commands.md)
+
 ## Step 1: Install Docker
 
 ### Set up the repository
