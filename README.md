@@ -91,7 +91,7 @@ minikube start --memory=4G
 From here on you can follow the [lab guides](https://github.com/f5devcentral/nginx_microservices_march_labs).
 
 ## Problems observed
-The lab guide mentions a couple of times that you can run commands like `minikube service podinfo` and this will display a chart like this and it would open the service in your browser.
+The lab guide mentions a couple of times that you can run commands like `minikube service podinfo` and this will display a chart like the one below and it would open the service in your browser.
 ```bash
 $ minikube service podinfo
 |-----------|---------|-------------|---------------------------|
@@ -107,7 +107,7 @@ $ minikube service podinfo
 |-----------|---------|-------------|------------------------|
 🎉  Opening service default/podinfo in default browser...
 ```
-I could not get this working, however what worked for me was the following:
+I could not get this working. However, what worked out for me was the following:
 ```bash
 daniel@ubuntu:~$ minikube service --all
 😿  service default/kubernetes has no node port
